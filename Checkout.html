@@ -20,9 +20,57 @@
     <link href="GlobalStyles.css" rel="stylesheet" type="text/css" />
     <link href="Checkout.css" rel="stylesheet" type="text/css" />
 
-    <title></title>
+    <title>Checkout</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="HomePage.html">Home</a>
+            </li>
+            <li>
+                <a href="SearchPage.html">Search</a>
+            </li>
+            <li>
+                <a href="Checkout.html">Checkout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>
+        Verify Checkout 
+    </h1>
+
+
+    <div id="checkoutInfo">
+        <form>
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text" placeholder="Enter Name"/>
+            <br />
+
+            <label for="email">Email Address</label>
+            <input name="email" id="email" type="text" placeholder="Enter Email Address"/>
+            <br />
+
+            <label for="cardNumber">Credit Card Number</label>
+            <input name="cardNumber" id="cardNumber" type="number" placeholder="XXXX XXXX XXXX XXXX" />
+            <br />
+
+            <label for="cardholder">Cardholder Name</label>
+            <input name="cardholder" id="cardholder" type="text" placeholder="Cardholder Name" />
+            <br />
+
+            <label for="cvv">CVV</label>
+            <input name="cvv" id="cvv" type="number" placeholder="CVV" />
+            <br />
+
+            <label for="exp">Expiration Date</label>
+            <input name="exp" id="exp" type="date" placeholder="MM/YY" />
+            <br />
+
+            <button name="purchase" value="Confirm" >Confirm Purchase</button>
+        </form>
+    </div>
 
 </body>
 </html>
